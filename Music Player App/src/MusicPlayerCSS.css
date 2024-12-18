@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 3, 2024, 2:28:23 PM
+    Author     : brike
+*/
+
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #2e3b4e; /* Dark blue-gray background */
+    -fx-text-fill: #ffffff; /* White text */
+}
+
+/* Title styling */
+#lblMusicPlayer {
+    -fx-font-size: 36px;
+    -fx-text-fill: #eaeaea; /* Light gray text for title */
+    -fx-font-weight: bold;
+}
+
+#lblLibrary, #lblPlaylist {
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffcf33; /* Gold color for section titles */
+    -fx-font-weight: bold;
+}
+
+/* Label for now playing */
+#lblSongInfo {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-background-color: #445566; /* Subtle background for clarity */
+    -fx-padding: 10px;
+    -fx-border-color: #778899;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+}
+
+/* ListViews */
+#lvPlayList, #lvUserPlaylist {
+    -fx-background-color: #1e282e; /* Darker background for lists */
+    -fx-control-inner-background: #1e282e; /* Consistent with outer background */
+    -fx-border-color: #778899; /* Light gray-blue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-cell-hover-color: #ffcf33; /* Highlighted cell color */
+    -fx-focus-color: transparent;
+    -fx-padding: 5px;
+}
+
+/* Text Field */
+#txtPlaylistName {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-text-fill: #000000; /* Black text */
+    -fx-border-color: #778899; /* Subtle border */
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #556677; /* Neutral blue-gray background */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #778899; /* Subtle border */
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ffcf33; /* Gold color on hover */
+    -fx-text-fill: #000000; /* Black text on hover */
+}
+
+#btnPlay {
+    -fx-background-color: #dd2345; /* Red color for play button */
+}
+
+#btnPlay:hover {
+    -fx-background-color: #ff6666; /* Lighter red on hover */
+}
+
+/* Slider */
+#sliderVolume {
+    -fx-control-inner-background: #556677;
+    -fx-background-color: transparent;
+    -fx-border-color: #778899;
+    -fx-border-radius: 3px;
+    -fx-border-width: 2px;
+}
+
+/* ComboBox */
+#cbPlaybackMode {
+    -fx-background-color: #556677; /* Same as buttons for consistency */
+    -fx-border-color: #778899; /* Light border */
+    -fx-text-fill: #ffffff; /* White text */
+}
+
+/* Add and Remove buttons */
+#btnAddToPlaylist, #btnRemoveFromPlaylist {
+    -fx-background-color: #ffcf33; /* Gold for playlist management */
+    -fx-text-fill: #000000; /* Black text */
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Playlist Save and Rename buttons */
+#btnSavePlaylistName, #btnRenamePlaylist {
+    -fx-background-color: #778899; /* Subtle color for less primary buttons */
+    -fx-text-fill: #ffffff; /* White text */
+}
